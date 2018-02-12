@@ -1,0 +1,15 @@
+package Component;
+
+import java.awt.Frame;
+import java.awt.Toolkit;
+
+public class FrameEx {
+	public static void main(String[] args) {
+		Frame f = new Frame("test");
+		f.setSize( 300, 300 );
+		
+		Toolkit tk = Toolkit.getDefaultToolkit();
+		
+		f.setVisible(true);
+	}
+}
